@@ -10,6 +10,7 @@ let principal = document.getElementById("principal").value; // Principal
 if(principal <= 0){
   document.getElementById("principal").innerHTML = "0";
   alert("Please enter a valid value for principal amount");
+  document.getElementById("principal").focus();
   return;
 }
 let rate = document.getElementById("rate").value; // Rate of Interest
@@ -32,6 +33,7 @@ let year = new Date().getFullYear() + parseInt(years); // Current Year + Year
   result_span.innerHTML = interest;
 
   document.getElementById("result").style.display = 'block';
+
 }
 
 
