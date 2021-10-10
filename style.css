@@ -62,3 +62,7 @@ footer{
   margin: 0 auto;
 }
 
+.yellow{
+  background-color: yellow;
+  color: red;
+}
