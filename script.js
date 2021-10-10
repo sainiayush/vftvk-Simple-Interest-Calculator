@@ -9,8 +9,8 @@ function compute(){
 let principal = document.getElementById("principal").value; // Principal
 if(principal <= 0){
   document.getElementById("principal").innerHTML = "0";
-  alert("Please enter a valid value for principal amount");
-  document.getElementById("principal").focus(); // Autofocus after error display
+  alert("Please enter a positive number");
+  document.getElementById("principal").focus();
   return;
 }
 let rate = document.getElementById("rate").value; // Rate of Interest
