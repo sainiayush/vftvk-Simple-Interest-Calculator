@@ -55,14 +55,15 @@ h1{
   padding: 5px;
 }
 
+.yellow{
+  background-color: yellow;
+  color: red;
+}
+
+
 /* Styling Footer */
 footer{
   font-style: italic;
   font-size: 0.8em;
   margin: 0 auto;
-}
-
-.yellow{
-  background-color: yellow;
-  color: red;
 }
