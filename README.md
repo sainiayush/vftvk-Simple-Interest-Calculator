@@ -1,3 +1,3 @@
 # Simple-Interest-Calculator
 
-###### Website link (Live Preview)https://codepen.io/ayush_saini/details/jOLOYWd
+###### Website link (Live Preview)https://sainiayush.github.io/vftvk-Simple-Interest-Calculator/
